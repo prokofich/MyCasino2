@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyCasino2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_registr_text_view">enter your name</string>
+    <string name="title_menu_complexity">CHOOSE THE DIFFICULTY LEVEL</string>
+    <string name="title_game">remember the cards and you will win</string>
+</resources>

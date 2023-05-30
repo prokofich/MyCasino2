@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff8200"
+    tools:context=".view.RegistrFragment">
+
+    <TextView
+        android:layout_width="261dp"
+        android:textColor="@color/black"
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:text="@string/title_registr_text_view"
+        android:textSize="35sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/id_registr_et_name"
+        android:layout_width="261dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:hint="name"
+        android:layout_height="82dp"
+        android:layout_gravity="center" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/id_registr_button_next"
+        android:layout_width="128dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="next"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/id_registr_image_cards"
+        android:layout_width="374dp"
+        android:layout_height="239dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+
+
+</LinearLayout>

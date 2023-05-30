@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "99059033928",
+    "project_id": "mycasino2-d1131",
+    "storage_bucket": "mycasino2-d1131.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99059033928:android:145bde2ec0ff6db29bb57d",
+        "android_client_info": {
+          "package_name": "com.example.mycasino2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1KSLazAVeOrys7xEG0N5uqGQq5CpV2uA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

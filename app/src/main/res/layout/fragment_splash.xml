@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff8200"
+    tools:context=".view.SplashFragment">
+
+    <ImageView
+        android:id="@+id/id_splash_image_cards"
+        android:layout_width="374dp"
+        android:layout_marginTop="160dp"
+        android:layout_gravity="center"
+        android:layout_height="239dp"/>
+
+    <TextView
+        android:layout_width="374dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="40sp"
+        android:text="come in and get prizes every day"
+        android:layout_gravity="center"
+        android:layout_height="100dp"/>
+    <ProgressBar
+        android:id="@+id/id_splash_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="338dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:progressBackgroundTint="@color/black"
+        android:backgroundTint="@color/black"
+        android:progressTint="@color/black"
+        android:scaleY="3" />
+
+
+
+
+</LinearLayout>

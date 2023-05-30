@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ff8200"
+    android:layout_height="match_parent"
+    tools:context=".view.MenuComplexityFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_menu_complexity"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="190dp"
+            android:id="@+id/id_comp_button_hard"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/black"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="110dp"
+            android:textSize="40sp"
+            android:text="hard" />
+
+        <ImageView
+            android:id="@+id/id_image_hard_done"
+            android:layout_width="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="190dp"
+        android:gravity="left"
+        android:id="@+id/id_comp_tv_record_hard"
+        android:textColor="@color/black"
+        android:text="your record: 0"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="190dp"
+            android:id="@+id/id_comp_button_medium"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/black"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="110dp"
+            android:textSize="40sp"
+            android:text="medium" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/id_image_medium_done"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="190dp"
+        android:gravity="left"
+        android:id="@+id/id_comp_tv_record_medium"
+        android:textColor="@color/black"
+        android:text="your record: 0"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="190dp"
+            android:id="@+id/id_comp_button_easy"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="110dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="easy"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/id_image_easy_done"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="190dp"
+        android:gravity="left"
+        android:id="@+id/id_comp_tv_record_easy"
+        android:textColor="@color/black"
+        android:text="your record: 0"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_gravity="center" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:id="@+id/id_comp_button_next"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:text="next"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+
+
+</LinearLayout>

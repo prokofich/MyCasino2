@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.mycasino2.view.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_registrFragment"
+            app:destination="@id/registrFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_dailyPrizeFragment"
+            app:destination="@id/dailyPrizeFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dailyPrizeFragment"
+        android:name="com.example.mycasino2.view.DailyPrizeFragment"
+        android:label="fragment_daily_prize"
+        tools:layout="@layout/fragment_daily_prize" >
+        <action
+            android:id="@+id/action_dailyPrizeFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.mycasino2.view.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.mycasino2.view.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_menuComplexityFragment"
+            app:destination="@id/menuComplexityFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_tutorialFragment"
+            app:destination="@id/tutorialFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuComplexityFragment"
+        android:name="com.example.mycasino2.view.MenuComplexityFragment"
+        android:label="fragment_menu_complexity"
+        tools:layout="@layout/fragment_menu_complexity" >
+        <action
+            android:id="@+id/action_menuComplexityFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_menuComplexityFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.mycasino2.view.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/registrFragment"
+        android:name="com.example.mycasino2.view.RegistrFragment"
+        android:label="fragment_registr"
+        tools:layout="@layout/fragment_registr" >
+        <action
+            android:id="@+id/action_registrFragment_to_dailyPrizeFragment"
+            app:destination="@id/dailyPrizeFragment" />
+        <action
+            android:id="@+id/action_registrFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorialFragment"
+        android:name="com.example.mycasino2.view.TutorialFragment"
+        android:label="fragment_tutorial"
+        tools:layout="@layout/fragment_tutorial" >
+        <action
+            android:id="@+id/action_tutorialFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+</navigation>
